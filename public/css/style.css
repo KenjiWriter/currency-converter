@@ -24,7 +24,7 @@
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
-    box-sizing: border-box;
+
     transition: border-color 0.5s ease-in-out;
   }
   
@@ -79,3 +79,44 @@ form select:focus {
     font-weight: bold;
     margin: 0;
   }
+
+/* Language select */
+.language-form select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #FFF;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 8px;
+}
+
+/* Language option */
+.language-form option {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Language form hover */
+.language-form:hover select,
+.language-form:hover button {
+  color: #00b5e9;
+}
+
+/* Language form focus */
+.language-form:focus select,
+.language-form:focus button {
+  outline: none;
+}
+
+/* Header language form */
+.header .language-form {
+  width: 5%;
+}

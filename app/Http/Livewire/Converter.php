@@ -2,8 +2,10 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
 use GuzzleHttp\Client;
+use Livewire\Component;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Config;
 
 class Converter extends Component
 {
